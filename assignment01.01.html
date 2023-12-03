@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover {
+background-color: #dda01c;
+
+        }
+        ol :nth-child(even){
+background-color: #eca815;
+        }
+        ol :nth-child(odd) {
+            background-color: #dc2e2e;
+        }
+        .hide {
+            display: none;
+        }
+        .mydiv:hover + .hide {
+            display: block;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://google.com">Go to Google</a> <br>
+    <a href="https://bing.com">Go to Bing</a> <br>
+    <a href="https://youtube.com">Go to youtube</a> <br>
+    <a href="https://instagram.com">Go to instagram</a> <br>
+    <a href="https://jiocinema.com">Go to jiocinema</a> <br>
+    <h1>full stack web developement</h1>
+    <ol>
+        <li>HTML</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>react.js</li>
+        <li>angular.js</li>
+        <li>mongodb</li>
+        <li>express.js</li>
+        <li>node.js</li>
+        <li>mongoose</li>
+    </ol>
+    <h2>display an element of hover</h2>
+    <div class="mydiv">hover on me to see below</div>
+    <div class="hide">I am visible now, bcs you hovered above element</div>
+    
+</body>
+</html>

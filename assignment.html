@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide {
+            display: none;
+        }
+        .hover:hover + .hide{
+            display: block;
+            
+        }
+        img{
+            display: none;
+        }
+        .hide + .hide2:hover {
+            display: block;
+            
+        }
+.img1 {
+    display: none;
+    
+}
+.hide3 {
+    width: 1000px;
+    height: 1000px;
+}
+.hide3:hover + .img1 {
+    display: block;
+}
+.hide4:hover {
+background-image: url(https://t3.ftcdn.net/jpg/05/34/88/12/360_F_534881241_HEUS2Z9LaNudNP8UaLem6r8Wu91htsIt.jpg)
+;
+width: 1000px;
+height: 1000px;
+}
+      
+    </style>
+</head>
+<body>
+    <h1 class="hover">Tap here to see the surprise</h1>
+    <img src="https://t3.ftcdn.net/jpg/05/34/88/12/360_F_534881241_HEUS2Z9LaNudNP8UaLem6r8Wu91htsIt.jpg" alt="" class="hide">
+    <img src="https://static01.nyt.com/images/2023/10/29/books/review/29Helmuth-Review/03Helmuth-Review-videoSixteenByNine3000.jpg" alt="" class="hide2">
+    <h1>touch below to see the magic</h1>
+    <div class="hide3">
+<img src="https://t3.ftcdn.net/jpg/05/34/88/12/360_F_534881241_HEUS2Z9LaNudNP8UaLem6r8Wu91htsIt.jpg" alt="" class="img1">
+    </div>
+<h1>Tap again here to see the magic</h1>
+<div class="hide4">
+jj
+</div>
+</body>
+</html>
